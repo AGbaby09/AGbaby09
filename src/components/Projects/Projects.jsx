@@ -27,7 +27,7 @@ const Projects = () => {
                     <p className="workTitle">Simplest way to create forms</p>
                     <img src={avatar} alt="project preview" className="full" />
                     <button className="livePreview center">
-                        <a href="" className='center'> Live Preview <i className='bx bx-link'></i>  </a> 
+                        <a href="https://google.com" target='blank' className='center'> Live Preview <i className='bx bx-link'></i>  </a> 
                     </button>
                     <button className="sourceCode center">
                         <a href="" className='center'><i className='bx bxl-github'></i> Source code </a> 
