@@ -22,3 +22,12 @@ nav>ul>li{
 nav>ul>li>lord-icon{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 767px) {
+    nav{
+        width: 80%;
+        margin: 0 10%;
+        left: 0;
+        top: 2%;
+    }
+}

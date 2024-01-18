@@ -41,6 +41,9 @@
     border-radius: 20px;
     overflow: hidden;
 }
+.work>p{
+    font-size: 1.7vh;
+}
 .work>img{
     /* filter: brightness(0.5); */
 }
@@ -99,4 +102,26 @@
 }
 .sourceCode i{
     font-size: 2vh;
+}
+
+
+
+@media only screen and (max-width: 767px){
+    .MyWorks{
+        width: 100%;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .MyWorks>p{
+        font-size: 2.5vh;
+    }
+    .MyWorks>h1{
+        font-size: 3vh;
+    }
+    #Works{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .work{
+        height: 30vh;
+    }
 }
