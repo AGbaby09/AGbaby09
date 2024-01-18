@@ -1,0 +1,114 @@
+#Me{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.background{
+    z-index: 0;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.upDown{
+    transform: rotate(180deg);
+}
+.MyTitle{
+    position: relative;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.MyTitle>p{
+    font-family: 'Sacramento', cursive;
+    font-size: 4vh;
+    font-weight: 600;
+    color: #333a;
+}
+.MyTitle>h1{
+    font-size: 4vh;
+    color: #333;
+    text-shadow: 0 0 13px #aaa;
+}
+.options{
+    width: 100%;
+    height: auto;
+    padding: 0.2vh 0;
+}
+.options>button{
+    padding: 0.7vh 2vh;
+    background-color: #aaaaaa50;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.3vh;
+    transition: background-color 300ms ease, font-weight 1ms ease;
+}
+.options>button:hover{
+    background-color: #aaa;
+    font-weight: 500;
+}
+.codes{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.codes>.side{
+    position: relative;
+    width: 45%;
+    height: 100%;
+}
+.codes>.side>.spEven{
+    height: 30%;
+    margin: auto;
+}
+.codes>.side>.spEven>lord-icon{
+    width: 20%;
+    height: 80%;
+}
+.codes>.left{}
+.codes>.right{}
+
+#myOutlets{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    margin: 2% 0 0 0;
+}
+.photo{
+    position: absolute;
+    box-shadow: 0 0 3px 1px #aaa;
+    width: 45vh;
+    height: 45vh;
+    border-radius: 20px;
+    transform: translateY(-50%) rotate(10deg);
+    overflow: hidden;
+}
+.desc{
+    position: relative;
+    width: 40%;
+    text-align: justify;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 0 0 0 10%;
+}
+.desc>p{
+    color: #333;
+    font-size: 1.7vh;
+}
+.photo.one{
+    right: 5%;
+    top: 45%;
+}
+.photo.one>img{
+    /* transform: rotate(-90deg); */
+}
+.photo.two{
+    right: 28%;
+    top: 55%;
+}
