@@ -25,3 +25,73 @@
     color: #333;
     text-shadow: 0 0 13px #aaa;
 }
+#Works{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.work{
+    position: relative;
+    box-shadow: 0 0 2px 1px #aaa;
+    width: 90%;
+    height: 40vh;
+    margin: 5% auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.work>img{
+    /* filter: brightness(0.5); */
+}
+.workTitle{
+    position: absolute;
+    top: 1%;
+    left: 0.5%;
+    z-index: 1;
+    color: white;
+    background-color: #333e;
+    padding: 1% 3%;
+    border-radius: 50px;
+}
+.livePreview{
+    position: absolute;
+    padding: 1% 3%;
+    font-size: 1.6vh;
+    color: #333;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    box-shadow: 0 0 3px 1px #ddd;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 200ms ease;
+}
+.livePreview:hover{
+    padding: 1.2% 3.5%;
+}
+.livePreview i{
+    font-size: 2vh;
+}
+.livePreview a:hover{
+    color: #333;
+}
+.sourceCode{
+    position: absolute;
+    bottom: 1%;
+    right: 0.5%;
+    z-index: 1;
+    background-color: #333e;
+    padding: 1% 3%;
+    border-radius: 50px;
+}
+.sourceCode a{
+    color: white;
+}
+.sourceCode i{
+    font-size: 2vh;
+}

@@ -14,7 +14,7 @@ main.App{
   background: #fff;
   overflow-y: scroll;
 }
-
+a{text-decoration: none; color: grey;transition: 100ms ease;}
 .center{
   display: flex;
   align-items: center;
