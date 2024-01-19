@@ -123,21 +123,17 @@
     height: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     justify-content: center;
 }
 .skillTabs>.tab{
     position: relative;
     width: 30%;
     height: 90%;
-    /* margin: 0 auto; */
-    /* border: 1px solid red; */
 }
 .skillTabs>.tab1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    /* padding: 0 2%; */
 }
 .skillTabs>.tab1>.end{
     position: relative;
@@ -301,5 +297,54 @@ button.resume:hover::before{
         transform: translateY(0%) rotate(-10deg);
         right: 40%;
         top: 77%;
+    }
+
+    .skillTabs{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .skillTabs>.tab{
+        width: 100%;
+    }
+    .skillTabs>.tab1{
+        height: 40%;}
+    .skillTabs>.tab1>.end{
+    }
+    .skillTabs>.tab1>.end>div.heading>p{
+        font-size: 1vh;
+    }
+    .skillTabs>.tab1>.end>div.boding>.icon{
+        width: 22.5%;
+        height: 20%;
+    }
+
+    .skillTabs>.tab2{
+        flex-direction: row;
+        height: 20%;
+    }
+    .skillTabs>.tab2>.midTab>i{
+        font-size: 2vh;
+    }
+    .skillTabs>.tab2>.midTab>p{
+        font-size: 1.2vh;
+    }
+    .skillTabs>.tab2>.midTab>h2{
+        font-size: 3vh;
+    }
+
+    .skillTabs>.tab3{
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+        place-content:initial;
+    }
+    .skillTabs>.tab3 h3{
+        font-size: 1.5vh;
+        text-align: center;
+        margin: 3% 0;
+    }
+    .skillTabs>.tab3 p{
+        font-size: 1.2vh;
+        text-align: center;
     }
 }
