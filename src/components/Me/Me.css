@@ -117,7 +117,138 @@
     top: 55%;
 }
 
+.skillTabs{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+}
+.skillTabs>.tab{
+    position: relative;
+    width: 30%;
+    height: 90%;
+    /* margin: 0 auto; */
+    /* border: 1px solid red; */
+}
+.skillTabs>.tab1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* padding: 0 2%; */
+}
+.skillTabs>.tab1>.end{
+    position: relative;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.skillTabs>.tab1>.end>div.heading{
+    width: 100%;
+    height: 15%;
+}
+.skillTabs>.tab1>.end>div.boding{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skillTabs>.tab1>.end>div.boding>.icon{
+    position: relative;
+    width: 20%;
+    height: 25%;
+    margin: 5%;
+}
+.skillTabs>.tab1>.end>div.boding>.icon>img{
+    object-fit: contain;
+}
+.skillTabs>.tab1>.end .head{
+    border-radius: 20px;
+    background-color: #333d;
+    color: silver;
+    padding: 1% 5%;
+    font-size: 1.5vh;
+    box-shadow: 0 0 2px 1px #aaa;
+}
 
+.skillTabs>.tab2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+.skillTabs>.tab2>.midTab{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+.skillTabs>.tab2>.midTab>i{
+    font-size: 4vh;
+    color: violet;
+    background: #66D7EE;
+    background: linear-gradient(to right, #66D7EE 0%, #a866ee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 13px #aaaaaa57;
+}
+.skillTabs>.tab2>.midTab>p{
+    font-size: 1.5vh;
+    text-shadow: 0 0 13px #aaa;
+}
+.skillTabs>.tab2>.midTab>h2{
+    font-size: 5vh;
+    text-shadow: 0 0 13px #aaa;
+}
+
+.skillTabs>.tab3{
+    display: grid;
+    place-content: center;
+    padding: 0 3%;
+}
+.resumeTab{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+button.resume{
+    position: relative;
+    width: 50%;
+    height: 10%;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 1;
+    transition: 500ms ease;
+    border: none;
+    box-shadow: 0 0 15px 1px rgba(128, 0, 128, 0.407);
+}
+button.resume::before{
+    position: absolute;
+    content: '';
+    width: 100vh;
+    height: 100vh;
+    border-radius: 50%;
+    background: radial-gradient( violet, cyan);
+    background-size: 100%;
+    background-position: center;
+    border: 1px solid red;
+    z-index: -1;
+    transition: 700ms ease;
+}
+button.resume:hover{
+    box-shadow: 0 0 15px 1px rgba(0, 255, 255, 0.407);
+}
+button.resume:hover::before{
+    /* background: radial-gradient( violet 50%, cyan); */
+    background-size: 200%;
+}
 
 @media only screen and (max-width: 767px){
     #Me{

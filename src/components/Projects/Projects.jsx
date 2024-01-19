@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <section id="Projects">
             <div className="MyWorks">
-                <p>Brouwse through my</p>
+                <p>Browse through my</p>
                 <h1>Works</h1>
             </div>
             <div id="Works" className='scrollable'>

@@ -8,6 +8,17 @@
     overflow: hidden;
     display: flex;
 }
+
+#logo{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: Agbalumo;
+    margin: 3% 0;
+}
+
+.frontend{color: orangered;}
+.backend{color: purple}
 .homeHero{
     position: absolute;
     width: 100%;
