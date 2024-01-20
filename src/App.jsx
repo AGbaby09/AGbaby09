@@ -6,6 +6,7 @@ import Me from './components/Me/Me'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Reviews from './components/Reviews/Reviews'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Me />
         <Projects />
         <Contact />
+        <Reviews />
       </main>
     </BrowserRouter>
   )
