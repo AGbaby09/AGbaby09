@@ -66,7 +66,12 @@
     #content{width: 100%;}
     #content>h1{
         text-align: center;
-        font-size: 3vh;
+        font-size: 2.7vh;
+    }
+    #content>h2{
+        text-align: center;
+        font-size: 2.5vh;
+        margin: 95% 0 5%;
     }
     #content>button{
         font-size: 1.5vh;
