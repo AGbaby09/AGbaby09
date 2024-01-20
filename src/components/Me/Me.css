@@ -30,7 +30,7 @@
 .MyTitle>h1{
     font-size: 4vh;
     color: #333;
-    text-shadow: 0 0 13px #aaa;
+    /* text-shadow: 0 0 13px #aaa; */
 }
 .options{
     width: 100%;

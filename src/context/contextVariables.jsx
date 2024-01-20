@@ -8,7 +8,7 @@ export const ContextVarialesProvider = ({children}) => {
     const [callReview, setCallReview] = useState(false)
 
     return (
-        <ContextVariales.Provider value={{ callLogin, setCallLogin }} >
+        <ContextVariales.Provider value={{ callReview, setCallReview }} >
             {children}
         </ContextVariales.Provider>
     )
