@@ -116,6 +116,7 @@
 .desc>p{
     color: #333;
     font-size: 2vh;
+    font-weight: 500;
 }
 .photo.one{
     right: 5%;
