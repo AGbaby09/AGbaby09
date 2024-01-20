@@ -88,12 +88,8 @@
     border-radius: 20px;
     transform: translateY(-50%) rotate(10deg);
     overflow: hidden;
-    animation: photo 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-@keyframes photo {
-    from{transform: rotate(0deg);}
-    to{transform: rotate(10deg);}
-}
+
 .desc{
     position: relative;
     width: 40%;
@@ -109,7 +105,7 @@
       opacity: 0;
     }
     100% {
-      transform: rotateY(0deg) translateY(0) skewY(0deg);
+      transform: rotateY(0deg) translateY(-50) skewY(0deg);
       opacity: 1;
     }
 }
@@ -360,12 +356,8 @@ button.resume:hover::before{
         transform: translateY(0%) rotate(-10deg);
         right: 40%;
         top: 77%;
-        animation: photo1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
-    @keyframes photo1 {
-        from{transform: rotate(0deg);}
-        to{transform: rotate(-10deg);}
-    }
+
     .skillTabs{
         flex-direction: column-reverse;
         justify-content: space-between;
