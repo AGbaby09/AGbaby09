@@ -1,0 +1,10 @@
+#Talk{
+    
+}
+#Talk>form{
+  width: 30%;
+  height: 55%;
+}
+@media only screen and (max-width: 767px) {
+    #Talk>form{width: 90%;}
+}

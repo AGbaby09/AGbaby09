@@ -1,6 +1,11 @@
 #Reviews{
-    position: absolute;
-    top: 0;
-    background: red;
-    z-index: 5;
+    
+}
+#Reviews>form{
+  width: 25%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    #Reviews>form{width: 90%;}
 }

@@ -4,11 +4,11 @@ const ContextVariales = createContext({})
 
 export const ContextVarialesProvider = ({children}) => {
 
-    // call login
-    const [callReview, setCallReview] = useState(true)
+    const [callReview, setCallReview] = useState(false)
+    const [callTalk, setCallTalk] = useState(false)
 
     return (
-        <ContextVariales.Provider value={{ callReview, setCallReview }} >
+        <ContextVariales.Provider value={{ callReview, setCallReview, callTalk, setCallTalk }} >
             {children}
         </ContextVariales.Provider>
     )

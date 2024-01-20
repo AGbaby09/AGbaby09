@@ -1,8 +1,11 @@
 import './Contact.css'
 import adminBG from '../../assets/minimal_dashboard.png'
 import arrow from '../../assets/arrow.png'
+import { useContext } from 'react'
+import ContextVariales from '../../context/contextVariables'
 
 const Contact = () => {
+    const {setCallReview, setCallTalk} = useContext(ContextVariales)
 
     return (
         <section id="Contact">
@@ -11,9 +14,9 @@ const Contact = () => {
             </div>
             <div id="content">
                 <h1>Turning Vision into Digital Reality: Your Ideas, Elevated. Let's Connect for Tailored Full-Stack Development Solutions.</h1>
-                <button className='center'>Let's talk</button>
+                <button className='center' onClick={()=>{setCallTalk(true)}}>Let's talk</button>
                 <h2>If you've got this far, please</h2>
-                <button className='center btn1'>Review my Portfolio</button>
+                <button className='center btn1' onClick={()=>{setCallReview(true)}}>Review my Portfolio</button>
             </div>
         </section>
     )
