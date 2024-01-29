@@ -6,7 +6,7 @@ import AboutMe from './AboutMe'
 import { Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 import reactIcon from '../../assets/react.svg'
-import viteIcon from '../../../public/vite.svg'
+import viteIcon from '/vite.svg'
 
 
 const Me = () => {

@@ -1,0 +1,18 @@
+#PostReviews{
+    width: 100%;
+    height: 60%;
+}
+#PostReviews>h1{
+    font-size: 7vh;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+
+}
+#PostReviews>.posts{
+    background-color: transparent;
+    width: 100%;
+    height: 80%;
+    box-shadow: inset 0 0 5px 1px #aaaa;
+    z-index: 3;
+    background: radial-gradient( rgba(160, 240, 193, 0.56) , #fff);
+}
