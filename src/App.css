@@ -13,6 +13,7 @@ main.App{
   height: 100vh;
   background: #fff;
   overflow-y: scroll;
+  padding: 0;
 }
 a{text-decoration: none; color: grey;transition: 100ms ease;}
 .center{

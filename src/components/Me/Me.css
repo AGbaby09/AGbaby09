@@ -347,7 +347,8 @@ button.resume:hover::before{
         padding: 2% 5%;
     }
     .desc>p{
-        font-size: 1.5vh;
+        font-size: 1.45vh;
+        letter-spacing: normal;
         padding: 0 5%;
     }
     .photo{
