@@ -349,6 +349,7 @@ button.resume:hover::before{
     .desc>p{
         font-size: 1.45vh;
         letter-spacing: normal;
+        word-spacing: normal;
         padding: 0 5%;
     }
     .photo{
@@ -394,6 +395,8 @@ button.resume:hover::before{
     }
     .skillTabs>.tab2>.midTab>p{
         font-size: 1.2vh;
+        letter-spacing: normal;
+        word-spacing: normal;
     }
     .skillTabs>.tab2>.midTab>h2{
         font-size: 3vh;

@@ -24,8 +24,8 @@ function App() {
         <Hero />
         <Me />
         <Projects />
-        {/* <PostReviews /> */}
         <Contact />
+        <PostReviews />
       </main>
     </BrowserRouter>
   )
